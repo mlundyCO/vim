@@ -11,3 +11,4 @@ First make sure zsh, vim, and git are installed then from /home/[user] run:
     ln -s /home/[user]/vim_zsh_config/zshrc /home/[user]/.zshrc
 
 Then run "chsh" and point to /bin/zsh, then logout and log back in.
+If the files already exist and you don't want and configuration, you can just delete them.
