@@ -6,6 +6,7 @@ My vim and zsh config files.
 To Use: 
 First make sure zsh, vim, and git are installed then from /home/[user] run:
 
+    # Or use ssh instead of https
     git clone https://github.com/mlundyCO/vim_zsh_config
     ln -s /home/[user]/vim_zsh_config/vimrc /home/[user]/.vimrc
     ln -s /home/[user]/vim_zsh_config/zshrc /home/[user]/.zshrc
