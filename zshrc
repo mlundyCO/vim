@@ -6,8 +6,10 @@ setopt HIST_FIND_NO_DUPS
 setopt HIST_IGNORE_ALL_DUPS
 setopt SHARE_HISTORY
 
-# Enable vim-like keybindings
-bindkey -v
+# As tempting as vim-like keybindings (use -v below) are, I am
+# already trained for cntrl-r backsearch and don't want to futz too much
+# So will stick with emacs bindings
+bindkey -e
 
 # Command completion
 autoload -Uz compinit
