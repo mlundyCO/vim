@@ -33,9 +33,6 @@ PROMPT="%n:%~%# "
 [[ -n "${key[PageUp]}"   ]]  && bindkey  "${key[PageUp]}"   beginning-of-buffer-or-history
 [[ -n "${key[PageDown]}" ]]  && bindkey  "${key[PageDown]}" end-of-buffer-or-history
 
-# TODO: organize all color related lines together, consider revamping current ls colors according to GPT suggestions,
-# understand vcs lines, and prompt_subst lines, and consider alternatives to aliases
-
 # Colors
 # Try GPT suggested colors
 LS_COLORS='rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=01;05;37;41:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.gz=01;31:*.bz2=01;31:*.xz=01;31:*.zip=01;31:*.7z=01;31:*.jpg=01;35:*.gif=01;35:*.png=01;35:*.avi=01;35:*.mpg=01;35:*.mp3=00;36:*.ogg=00;36:*.flac=00;36:*.wav=00;36:';
