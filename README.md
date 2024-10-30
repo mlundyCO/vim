@@ -1,16 +1,12 @@
-vim and zsh
-===========
-
-My vim and zsh config files.
+Dev Config
+==========
 
 To Use: 
-First make sure zsh, vim, tmux, and git are installed then from /home/[user] run:
-
-    # Or use ssh instead of https
-    git clone https://github.com/mlundyCO/vim_zsh_config
-    ln -s /home/[user]/vim_zsh_config/vimrc /home/[user]/.vimrc
-    ln -s /home/[user]/vim_zsh_config/zshrc /home/[user]/.zshrc
-    ln -s /home/[user]/vim_zsh_config/tmux.conf /home/[user]/.tmux.conf
-
-Then run "chsh" and point to /bin/zsh, then logout and log back in.
-If the files already exist and you don't want to save any configuration, you can just delete them.
+Install git then from `$HOME` run:
+```
+git clone https://github.com/mlundyCO/dev_config
+chmod u+x /dev_config/setup.sh
+./dev_config/setup.sh
+```
+You need `sudo` priviledge to install `zsh`, `tmux`, and `neovim`, but otherwise you only need the user's password to change the shell.
+A new `zsh` login shell will be created.
