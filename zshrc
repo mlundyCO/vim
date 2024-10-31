@@ -53,3 +53,8 @@ PS1="\$vcs_info_msg_0_$PS1"
 # Aliases
 alias octave='octave --no-gui'
 alias ls='ls --color=auto'
+
+# Automatically start tmux if not already in a tmux session
+if command -v tmux &> /dev/null; then
+    [ -z "$TMUX" ] && exec tmux
+fi
