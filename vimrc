@@ -58,3 +58,6 @@ set nu
 set autoindent
 imap jk <Esc>
 map <Esc><Esc> :w<Cr>
+
+set cursorline
+highlight CursorLine cterm=NONE ctermbg=darkgray
